@@ -2,3 +2,21 @@ body{
     padding: 0;
     margin: 0;
 }
+.highlight{
+    background-color: beige;
+    color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.highlight2{
+    background-color: rgb(0, 0, 0);
+    color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#cajaEstilos{
+    text-align: center;
+    display: block;
+}
+#caja2{
+    display: none;
+    text-align: center;
+}

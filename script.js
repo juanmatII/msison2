@@ -21,7 +21,7 @@ const boton = document.getElementById("miBoton");
 const caja = document.getElementById("miCaja");
 const formulario = document.getElementById("miFormulario");
 const botonDeCambio = document.getElementById("botonCambio");
-const botonDeRegresarCambio = document.getElementById("botonRegresarCambio");
+const botonDeRegresarCambio = document.getElementById("botonDeRegresarCambio");
 const botonCambiarColorFondo = document.getElementById("botonCambiarColorFondo");
 const enlace = document.getElementById("enlace");
 const cuerpo = document.getElementById("cuerpo");
@@ -72,7 +72,7 @@ crearNuevoDiv.addEventListener(
     const nuevoDiv = document.createElement('div');
     nuevoDiv.classList.add('divCreado');
     nuevoDiv.textContent = textoDelNuevoDiv.value || "Nuevo div sin texto";
-    caja.appendChild(nuevoDiv);
+    document.body.appendChild(nuevoDiv);
 
   }
 )
@@ -81,9 +81,8 @@ crearNuevoDiv.addEventListener(
 botonDeRegresarCambio.addEventListener(
   "click",
   () => {
-    const divCreados = document.querySelector(".divCreado");
-    divsCreados.array.forEach((div) => div.remove());
-
+    const divsCreados = document.querySelectorAll(".divCreado");
+    divsCreados.forEach((div) => div.remove());
     titulo.textContent = tituloOriginal;
 
     document.body.style.backgroundColor = null;
