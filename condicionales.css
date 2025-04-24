@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(205, 220, 255);
+}
+.contenedor { 
+    background-color: rgb(176, 189, 253);
+    text-align: center;
+    margin: 20%;
+    margin-bottom: 1%;
+    padding: 0.5rem;
+    border: solid 0.1rem;
+}
+.contenedor p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+button{
+    background-color: rgba(250, 235, 215, 0);
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+#results{
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>condicionales</title>
+    <link rel="stylesheet" href="condicionales.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+        <h1>Hola Mundo</h1>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi velit ea ad doloribus ullam saepe libero, optio, cum rem voluptate dolores minus voluptatem sed, ipsam iste iusto commodi consequuntur asperiores!
+        </p>
+        <input type="number" id="entrada">
+        <button id="enviar" onclick="calculadora()">➤</button>
+    </div>
+    <div id="results">
+        <p id="textResults">
+            
+        </p>
+    </div>
+    <div class="contenedor">
+        <h1>calculadora</h1>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi velit ea ad doloribus ullam saepe libero, optio, cum rem voluptate dolores minus voluptatem sed, ipsam iste iusto commodi consequuntur asperiores!
+        </p>
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <br>
+        <button id="suma" onclick="ejecutarOperaciones('suma')">➕</button>
+        <button id="resta" onclick="ejecutarOperaciones('resta')">➖</button>
+        <button id="multiplicacion" onclick="ejecutarOperaciones('multiplicacion')">✖️</button>
+        <button id="divicion" onclick="ejecutarOperaciones('divicion')">➗</button>
+        <h5 id="resultadoOperacion"></h5>
+        
+    </div>
+    <div id="results">
+        <p id="textResults">
+            
+        </p>
+    </div>
+
+
+    <script src="condicionales.js"></script>
+  </body>
+</html>
